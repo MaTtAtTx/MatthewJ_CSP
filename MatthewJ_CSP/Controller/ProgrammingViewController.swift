@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ProgrammingViewController.swift
 //  MatthewJ_CSP
 //
 //  Created by Johnsen, Matthew on 10/26/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController
+class ProgrammingViewController: UIViewController
 {
     override func viewDidLoad()
     {
@@ -20,4 +20,3 @@ class ViewController: UIViewController
         super.didReceiveMemoryWarning()
     }
 }
-
