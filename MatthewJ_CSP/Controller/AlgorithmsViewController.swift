@@ -15,7 +15,7 @@ class AlgorithmsViewController: UIViewController
     
     private func setupAlgorithm() -> Void
     {
-        var algorithmSteps : [String] = []
+        var algorithmSteps : [String] = [] //This is created an array in swift, you just use the square brackets around type, and then = []
         
         // TODO: Define algorithm and all steps
         let algorithm :String = "These are the instructions to create a project in Java using Eclipse and Github \n"
@@ -34,9 +34,9 @@ class AlgorithmsViewController: UIViewController
         let attributesDictionary = [NSAttributedStringKey.font : algorithmText.font]
         let fullAttributedString = NSMutableAttributedString(string: algorithm, attributes: attributesDictionary)
         
-        for step in algorithmSteps
+        for step in algorithmSteps //There are no parens or type for the for loop in swift
         {
-            let bullet :String = ""
+            let bullet :String = "👾"
             let formattedStep :String = "\n\(bullet) \(step)"
             let attributedStringStep : NSMutableAttributedString = NSMutableAttributedString(string: formattedStep)
             let paragraphStyle = createParagraphStyle()
@@ -45,6 +45,8 @@ class AlgorithmsViewController: UIViewController
             
             fullAttributedString.append(attributedStringStep)
         }
+        
+        algorithmText.attributedText = fullAttributedString
     }
     
     private func createParagraphStyle() -> NSParagraphStyle
