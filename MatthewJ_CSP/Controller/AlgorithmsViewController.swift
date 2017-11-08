@@ -49,7 +49,7 @@ class AlgorithmsViewController: UIViewController
         algorithmText.attributedText = fullAttributedString
     }
     
-    private func createParagraphStyle() -> NSParagraphStyle
+    private func createParagraphStyle() -> NSParagraphStyle //This applies a style of font to the text
     {
         let paragraphStyle: NSMutableParagraphStyle = NSMutableParagraphStyle()
         paragraphStyle.alignment = .left
