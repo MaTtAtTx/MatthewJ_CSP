@@ -88,15 +88,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8O7-8V-g95">
-                                <rect key="frame" x="117" y="596" width="141" height="60"/>
+                                <rect key="frame" x="117" y="600" width="141" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="More Information"/>
                                 <connections>
                                     <action selector="changePicture" destination="dWI-87-UV7" eventType="touchUpInside" id="3k0-NL-Z9a"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tae-18-jAo">
+                                <rect key="frame" x="23" y="344" width="329" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJW-cu-Mha">
-                                <rect key="frame" x="62" y="30" width="250" height="250"/>
+                                <rect key="frame" x="32" y="26" width="310" height="310"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -106,6 +113,7 @@
                     <connections>
                         <outlet property="changeInformation" destination="8O7-8V-g95" id="Gwo-gH-ZDQ"/>
                         <outlet property="imageFrame" destination="IJW-cu-Mha" id="AVf-ns-uXV"/>
+                        <outlet property="informationLabel" destination="Tae-18-jAo" id="wJg-vL-SEW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AXg-Ka-blz" userLabel="First Responder" sceneMemberID="firstResponder"/>
