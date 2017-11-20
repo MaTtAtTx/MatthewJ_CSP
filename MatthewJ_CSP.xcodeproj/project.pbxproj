@@ -19,6 +19,8 @@
 		0D5DBE601FA2244200302061 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE5F1FA2244200302061 /* ProgrammingViewController.swift */; };
 		0D5DBE621FA2247400302061 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE611FA2247400302061 /* InternetViewController.swift */; };
 		0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */; };
+		0DE7E51C1FC32AAE00B21C4E /* Colorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7E51B1FC32AAE00B21C4E /* Colorable.swift */; };
+		0DE7E51E1FC32B9400B21C4E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7E51D1FC32B9400B21C4E /* Drawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		0D5DBE5F1FA2244200302061 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		0D5DBE611FA2247400302061 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
 		0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		0DE7E51B1FC32AAE00B21C4E /* Colorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorable.swift; sourceTree = "<group>"; };
+		0DE7E51D1FC32B9400B21C4E /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 		0D5DBE561FA2204200302061 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				0DE7E51B1FC32AAE00B21C4E /* Colorable.swift */,
+				0DE7E51D1FC32B9400B21C4E /* Drawing.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -192,12 +198,14 @@
 				0D5DBE441FA21FAE00302061 /* ViewController.swift in Sources */,
 				0D5DBE601FA2244200302061 /* ProgrammingViewController.swift in Sources */,
 				0D5DBE421FA21FAE00302061 /* AppDelegate.swift in Sources */,
+				0DE7E51C1FC32AAE00B21C4E /* Colorable.swift in Sources */,
 				0D5DBE5C1FA223A100302061 /* DataViewController.swift in Sources */,
 				0D5DBE581FA2230600302061 /* CreativityViewController.swift in Sources */,
 				0D5DBE5E1FA223F200302061 /* AlgorithmsViewController.swift in Sources */,
 				0D5DBE5A1FA2236100302061 /* AbstractionViewController.swift in Sources */,
 				0D5DBE621FA2247400302061 /* InternetViewController.swift in Sources */,
 				0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */,
+				0DE7E51E1FC32B9400B21C4E /* Drawing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
