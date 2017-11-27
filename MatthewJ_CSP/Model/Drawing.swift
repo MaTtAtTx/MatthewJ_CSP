@@ -10,7 +10,7 @@ import UIKit
 public class Drawing : Colorable
 {
     //MARK: Colorable data member
-    private var coloredState: Bool
+    public var coloredState: Bool
     
     public init()
     {
@@ -18,7 +18,7 @@ public class Drawing : Colorable
     }
     
     //MARK:- Colorable methods
-    func colored() -> Void
+    public func colored() -> Void
     {
         print("I am colored")
         coloredState = true
@@ -34,5 +34,7 @@ public class Drawing : Colorable
         {
             print("Blank")
         }
+        
+        return coloredState
     }
 }
