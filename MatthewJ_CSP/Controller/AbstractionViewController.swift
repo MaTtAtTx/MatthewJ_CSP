@@ -57,6 +57,12 @@ public class AbstractionViewController: UIPageViewController, UIPageViewControll
         guard previousIndex >= 0
         else
         {
+            return orderedAbstractionViews.last
+        }
+        
+        guard orderedAbstractionViews.count > previousIndex
+        else
+        {
             return nil
         }
         
