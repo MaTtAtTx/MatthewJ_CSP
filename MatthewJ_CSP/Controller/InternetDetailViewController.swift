@@ -8,7 +8,7 @@
 
 import UIKit
 
-class InternetViewController: UIViewController
+class InternetDetailViewController: UIViewController
 {
     override func viewDidLoad()
     {

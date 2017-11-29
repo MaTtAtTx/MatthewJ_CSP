@@ -22,7 +22,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="2cl-ZO-QO0" kind="show" id="Mjm-bB-foy"/>
+                                    <segue destination="VwR-Iv-kmm" kind="show" id="cUt-tX-DYw"/>
                                 </connections>
                             </button>
                         </subviews>
