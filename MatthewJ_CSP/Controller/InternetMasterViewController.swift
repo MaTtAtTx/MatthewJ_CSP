@@ -29,7 +29,7 @@ public class InternetMasterViewController: UITableViewController
         
     }
     
-    override func viewDidLoad()
+    override public func viewDidLoad()
     {
         super.viewDidLoad()
         setup()
