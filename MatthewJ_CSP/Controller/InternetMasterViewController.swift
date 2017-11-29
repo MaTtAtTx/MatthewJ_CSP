@@ -22,7 +22,7 @@ class InternetMasterViewController: UITableViewController
         ]
     }()
     
-    private var detailViewController viewDidLoad : InternetDetailViewController?
+    private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
