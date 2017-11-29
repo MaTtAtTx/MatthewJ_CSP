@@ -7,16 +7,22 @@
 //
 
 import UIKit
+import WebKit
 
-class InternetDetailViewController: UIViewController
+public class InternetDetailViewController: UIViewController
 {
+    //MARK: GUI Controls
+    @IBOutlet weak var textView: UILabel!
+    @IBOutlet weak var webViewer: WKWebView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        setup()
     }
-
-    override func didReceiveMemoryWarning()
+    
+    private func setup() -> Void
     {
-        super.didReceiveMemoryWarning()
+        
     }
 }
