@@ -18,15 +18,31 @@ public class InternetMasterViewController: UITableViewController
             "CTEC",
             "Canyons",
             "Twitter",
-            "Swift Guide",
+            "Swift Language Guide",
         ]
     }()
+    
+    private lazy var addresses : [String] = []
     
     private var detailViewController : InternetDetailViewController?
     
     private func setup() -> Void
     {
+        //TODO: Replace with correct links
+        addresses = [
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+            "https://www.google.com",
+        ]
         
+        if let splitView = splitViewController
+        {
+            let currentControllers = splitView.viewControllers
+            detailViewController = currentControllers[0] as? InternetDetailViewController
+        }
     }
     
     override public func viewDidLoad()

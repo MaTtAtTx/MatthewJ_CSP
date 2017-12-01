@@ -17,6 +17,7 @@ public class InternetDetailViewController: UIViewController
     
     var detailAddress : String?
     {
+        // Mark: Update the detail view when a value is changed.
         didSet
         {
             configureDetailView()
