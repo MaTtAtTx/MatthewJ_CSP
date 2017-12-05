@@ -272,9 +272,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHY-1v-BWh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5661.6000000000004" y="1629.5352323838083"/>
+            <point key="canvasLocation" x="5890" y="1809"/>
         </scene>
-        <!--Root View Controller-->
+        <!--Intenet Samples-->
         <scene sceneID="FVM-CA-CID">
             <objects>
                 <tableViewController clearsSelectionOnViewWillAppear="NO" id="ueD-Tc-aMq" customClass="InternetMasterViewController" customModule="MatthewJ_CSP" customModuleProvider="target" sceneMemberID="viewController">
@@ -290,6 +290,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="fPP-yi-w8d" kind="showDetail" identifier="showDetail" id="kXs-S3-D7R"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -297,7 +300,7 @@
                             <outlet property="delegate" destination="ueD-Tc-aMq" id="TBk-vy-dWb"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Ujd-lE-dLV"/>
+                    <navigationItem key="navigationItem" title="Intenet Samples" id="Ujd-lE-dLV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ow5-Lv-5mM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -462,4 +465,7 @@
         <image name="byteCode" width="700" height="293"/>
         <image name="javaSample" width="1126" height="754"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="kXs-S3-D7R"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D09FEBE1FD6EFAF00C5CA17 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D09FEBD1FD6EFAF00C5CA17 /* DrawingView.swift */; };
 		0D1DBB3C1FCF0026000831DE /* InternetMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1DBB3B1FCF0026000831DE /* InternetMasterViewController.swift */; };
 		0D1DBB3F1FCF0B2A000831DE /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1DBB3E1FCF0B2A000831DE /* WebKit.framework */; };
 		0D5DBE421FA21FAE00302061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE411FA21FAE00302061 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D09FEBD1FD6EFAF00C5CA17 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		0D1DBB3B1FCF0026000831DE /* InternetMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMasterViewController.swift; sourceTree = "<group>"; };
 		0D1DBB3E1FCF0B2A000831DE /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		0D5DBE3E1FA21FAE00302061 /* MatthewJ_CSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MatthewJ_CSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 			children = (
 				0D5DBE4A1FA21FAE00302061 /* LaunchScreen.storyboard */,
 				0D5DBE451FA21FAE00302061 /* Main.storyboard */,
+				0D09FEBD1FD6EFAF00C5CA17 /* DrawingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				0D5DBE601FA2244200302061 /* ProgrammingViewController.swift in Sources */,
 				0D5DBE421FA21FAE00302061 /* AppDelegate.swift in Sources */,
 				0DE7E51C1FC32AAE00B21C4E /* Colorable.swift in Sources */,
+				0D09FEBE1FD6EFAF00C5CA17 /* DrawingView.swift in Sources */,
 				0D5DBE5C1FA223A100302061 /* DataViewController.swift in Sources */,
 				0D5DBE581FA2230600302061 /* CreativityViewController.swift in Sources */,
 				0D5DBE5E1FA223F200302061 /* AlgorithmsViewController.swift in Sources */,
