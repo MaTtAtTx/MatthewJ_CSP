@@ -19,6 +19,8 @@ public class DrawingView: UIView
         drawHappyTree()
         drawDesignPart1()
         drawDesignPart2()
+        drawDesignPart3()
+        drawDesignPart4()
     }
 
     private func drawStickFigure() -> UIBezierPath
@@ -92,16 +94,46 @@ public class DrawingView: UIView
     
     private func drawDesignPart2() -> Void
     {
-        let logo = UIBezierPath()
+        let logo2 = UIBezierPath()
 
         UIColor.blue.setFill()
-        logo.move(to: CGPoint(x: 110, y: 390))
-        logo.addLine(to: CGPoint(x: 60, y: 390))
-        logo.addLine(to: CGPoint(x: 60, y: 341))
-        logo.move(to: CGPoint(x: 10, y: 290))
-        logo.addLine(to: CGPoint(x: 60, y: 290))
-        logo.addLine(to: CGPoint(x: 60, y: 339))
-        logo.close()
-        logo.fill()
+        logo2.move(to: CGPoint(x: 110, y: 390))
+        logo2.addLine(to: CGPoint(x: 60, y: 390))
+        logo2.addLine(to: CGPoint(x: 60, y: 341))
+        logo2.move(to: CGPoint(x: 10, y: 290))
+        logo2.addLine(to: CGPoint(x: 60, y: 290))
+        logo2.addLine(to: CGPoint(x: 60, y: 339))
+        logo2.close()
+        logo2.fill()
+    }
+    
+    private func drawDesignPart3() -> Void
+    {
+        let logo3 = UIBezierPath()
+        
+        UIColor.green.setFill()
+        logo3.move(to: CGPoint(x: 10, y: 290))
+        logo3.addLine(to: CGPoint(x: 10, y: 340))
+        logo3.addLine(to: CGPoint(x: 59, y: 340))
+        logo3.move(to: CGPoint(x: 61, y: 340))
+        logo3.addLine(to: CGPoint(x: 110, y: 390))
+        logo3.addLine(to: CGPoint(x: 110, y: 340))
+        logo3.close()
+        logo3.fill()
+    }
+    
+    private func drawDesignPart4() -> Void
+    {
+        let logo4 = UIBezierPath()
+        
+        UIColor.red.setFill()
+        logo4.move(to: CGPoint(x: 10, y: 390))
+        logo4.addLine(to: CGPoint(x: 60, y: 390))
+        logo4.addLine(to: CGPoint(x: 60, y: 341))
+        logo4.move(to: CGPoint(x: 110, y: 290))
+        logo4.addLine(to: CGPoint(x: 60, y: 290))
+        logo4.addLine(to: CGPoint(x: 60, y: 339))
+        logo4.close()
+        logo4.fill()
     }
 }

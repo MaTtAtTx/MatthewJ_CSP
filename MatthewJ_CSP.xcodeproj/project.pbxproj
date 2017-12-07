@@ -22,6 +22,7 @@
 		0D5DBE601FA2244200302061 /* ProgrammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE5F1FA2244200302061 /* ProgrammingViewController.swift */; };
 		0D5DBE621FA2247400302061 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */; };
 		0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */; };
+		0DB4FA381FD99CAB00913319 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4FA371FD99CAB00913319 /* ArtCell.swift */; };
 		0DE7E51C1FC32AAE00B21C4E /* Colorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7E51B1FC32AAE00B21C4E /* Colorable.swift */; };
 		0DE7E51E1FC32B9400B21C4E /* Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7E51D1FC32B9400B21C4E /* Drawing.swift */; };
 /* End PBXBuildFile section */
@@ -44,6 +45,7 @@
 		0D5DBE5F1FA2244200302061 /* ProgrammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammingViewController.swift; sourceTree = "<group>"; };
 		0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
+		0DB4FA371FD99CAB00913319 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
 		0DE7E51B1FC32AAE00B21C4E /* Colorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorable.swift; sourceTree = "<group>"; };
 		0DE7E51D1FC32B9400B21C4E /* Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drawing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 				0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */,
 				0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */,
 				0D1DBB3B1FCF0026000831DE /* InternetMasterViewController.swift */,
+				0DB4FA371FD99CAB00913319 /* ArtCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D5DBE441FA21FAE00302061 /* ViewController.swift in Sources */,
+				0DB4FA381FD99CAB00913319 /* ArtCell.swift in Sources */,
 				0D1DBB3C1FCF0026000831DE /* InternetMasterViewController.swift in Sources */,
 				0D5DBE601FA2244200302061 /* ProgrammingViewController.swift in Sources */,
 				0D5DBE421FA21FAE00302061 /* AppDelegate.swift in Sources */,
