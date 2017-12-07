@@ -82,12 +82,12 @@ public class DrawingView: UIView
         let logo = UIBezierPath()
         
         UIColor.white.setFill()
-        logo.move(to: CGPoint(x: 10, y: 390))
-        logo.addLine(to: CGPoint(x: 10, y: 340))
+        logo.move(to: CGPoint(x: 10, y: 365))
+        logo.addLine(to: CGPoint(x: 10, y: 390))
         logo.addLine(to: CGPoint(x: 59, y: 340))
         logo.move(to: CGPoint(x: 61, y: 340))
         logo.addLine(to: CGPoint(x: 110, y: 290))
-        logo.addLine(to: CGPoint(x: 110, y: 340))
+        logo.addLine(to: CGPoint(x: 110, y: 315))
         logo.close()
         logo.fill()
     }
@@ -98,10 +98,10 @@ public class DrawingView: UIView
 
         UIColor.blue.setFill()
         logo2.move(to: CGPoint(x: 110, y: 390))
-        logo2.addLine(to: CGPoint(x: 60, y: 390))
+        logo2.addLine(to: CGPoint(x: 85, y: 390))
         logo2.addLine(to: CGPoint(x: 60, y: 341))
         logo2.move(to: CGPoint(x: 10, y: 290))
-        logo2.addLine(to: CGPoint(x: 60, y: 290))
+        logo2.addLine(to: CGPoint(x: 35, y: 290))
         logo2.addLine(to: CGPoint(x: 60, y: 339))
         logo2.close()
         logo2.fill()
