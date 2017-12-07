@@ -17,7 +17,8 @@ public class DrawingView: UIView
         //Drawing code
         drawStickFigure().stroke()
         drawHappyTree()
-        //drawTurtle()
+        drawDesignPart1()
+        drawDesignPart2()
     }
 
     private func drawStickFigure() -> UIBezierPath
@@ -74,13 +75,32 @@ public class DrawingView: UIView
         happyTree.stroke()
     }
     
-    private func drawTurtle() -> Void
+    private func drawDesignPart1() -> Void
     {
         let logo = UIBezierPath()
+        
         UIColor.white.setFill()
-        logo.move(to: CGPoint(x: 50, y: 250))
-        logo.addLine(to: CGPoint(x: 100, y: 300))
-        logo.addLine(to: CGPoint(x: 50, y: 350))
+        logo.move(to: CGPoint(x: 10, y: 390))
+        logo.addLine(to: CGPoint(x: 10, y: 340))
+        logo.addLine(to: CGPoint(x: 59, y: 340))
+        logo.move(to: CGPoint(x: 61, y: 340))
+        logo.addLine(to: CGPoint(x: 110, y: 290))
+        logo.addLine(to: CGPoint(x: 110, y: 340))
+        logo.close()
+        logo.fill()
+    }
+    
+    private func drawDesignPart2() -> Void
+    {
+        let logo = UIBezierPath()
+
+        UIColor.blue.setFill()
+        logo.move(to: CGPoint(x: 110, y: 390))
+        logo.addLine(to: CGPoint(x: 60, y: 390))
+        logo.addLine(to: CGPoint(x: 60, y: 341))
+        logo.move(to: CGPoint(x: 10, y: 290))
+        logo.addLine(to: CGPoint(x: 60, y: 290))
+        logo.addLine(to: CGPoint(x: 60, y: 339))
         logo.close()
         logo.fill()
     }
