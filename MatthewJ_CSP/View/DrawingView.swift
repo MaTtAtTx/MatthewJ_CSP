@@ -17,10 +17,8 @@ public class DrawingView: UIView
         //Drawing code
         drawStickFigure().stroke()
         drawHappyTree()
-        drawDesignPart1()
-        drawDesignPart2()
-        drawDesignPart3()
-        drawDesignPart4()
+        drawDesign()
+        drawTest()
     }
 
     private func drawStickFigure() -> UIBezierPath
@@ -77,7 +75,7 @@ public class DrawingView: UIView
         happyTree.stroke()
     }
     
-    private func drawDesignPart1() -> Void
+    private func drawDesign() -> Void
     {
         let logo = UIBezierPath()
         
@@ -90,12 +88,9 @@ public class DrawingView: UIView
         logo.addLine(to: CGPoint(x: 110, y: 315))
         logo.close()
         logo.fill()
-    }
-    
-    private func drawDesignPart2() -> Void
-    {
+        
         let logo2 = UIBezierPath()
-
+        
         UIColor.blue.setFill()
         logo2.move(to: CGPoint(x: 110, y: 390))
         logo2.addLine(to: CGPoint(x: 85, y: 390))
@@ -105,10 +100,7 @@ public class DrawingView: UIView
         logo2.addLine(to: CGPoint(x: 60, y: 339))
         logo2.close()
         logo2.fill()
-    }
-    
-    private func drawDesignPart3() -> Void
-    {
+        
         let logo3 = UIBezierPath()
         
         UIColor.green.setFill()
@@ -120,10 +112,7 @@ public class DrawingView: UIView
         logo3.addLine(to: CGPoint(x: 110, y: 340))
         logo3.close()
         logo3.fill()
-    }
-    
-    private func drawDesignPart4() -> Void
-    {
+        
         let logo4 = UIBezierPath()
         
         UIColor.red.setFill()
@@ -135,5 +124,44 @@ public class DrawingView: UIView
         logo4.addLine(to: CGPoint(x: 60, y: 339))
         logo4.close()
         logo4.fill()
+    }
+    
+    private func drawTest() -> Void
+    {
+        let testDraw = UIBezierPath()
+        
+        UIColor.orange.setFill()
+        testDraw.move(to: CGPoint(x: 333, y: 10))
+        testDraw.addLine(to: CGPoint(x: 333, y: 100))
+        testDraw.addLine(to: CGPoint(x: 313, y: 10))
+        testDraw.close()
+        testDraw.fill()
+        
+        let testDraw2 = UIBezierPath()
+        
+        UIColor.white.setFill()
+        testDraw2.move(to: CGPoint(x: 313, y: 10))
+        testDraw2.addLine(to: CGPoint(x: 313, y: 100))
+        testDraw2.addLine(to: CGPoint(x: 333, y: 100))
+        testDraw2.close()
+        testDraw2.fill()
+        
+        let testDraw3 = UIBezierPath()
+        
+        UIColor.orange.setFill()
+        testDraw3.move(to: CGPoint(x: 313, y: 10))
+        testDraw3.addLine(to: CGPoint(x: 313, y: 100))
+        testDraw3.addLine(to: CGPoint(x: 293, y: 10))
+        testDraw3.close()
+        testDraw3.fill()
+        
+        let testDraw4 = UIBezierPath()
+        
+        UIColor.white.setFill()
+        testDraw4.move(to: CGPoint(x: 313, y: 10))
+        testDraw4.addLine(to: CGPoint(x: 313, y: 100))
+        testDraw4.addLine(to: CGPoint(x: 333, y: 100))
+        testDraw4.close()
+        testDraw4.fill()
     }
 }
