@@ -2,7 +2,7 @@
 //  Colorable.swift
 //  MatthewJ_CSP
 //
-//  Created by Johnsen, Matthew on 11/20/17.
+//  Created by Matthew Johnsen on 11/20/17.
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 

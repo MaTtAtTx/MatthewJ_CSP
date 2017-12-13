@@ -2,7 +2,7 @@
 //  Player.swift
 //  Sample_CSP
 //
-//  Created by Cody Henrichsen on 12/7/17.
+//  Created by Matthew Johnsen on 12/7/17.
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
