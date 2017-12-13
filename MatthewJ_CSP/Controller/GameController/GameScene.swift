@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  Sample_CSP
 //
-//  Created by Cody Henrichsen on 12/6/17.
+//  Created by Matthew Johnsen on 12/6/17.
 //  Copyright © 2017 CTEC. All rights reserved.
 //
 
