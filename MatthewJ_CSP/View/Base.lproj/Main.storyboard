@@ -43,7 +43,7 @@
         <scene sceneID="JwI-is-nbL">
             <objects>
                 <viewController id="yzb-5o-XG2" customClass="ProgrammingViewController" customModule="MatthewJ_CSP" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="QeV-Te-eUQ">
+                    <view key="view" contentMode="scaleToFill" id="QeV-Te-eUQ" customClass="SKView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
