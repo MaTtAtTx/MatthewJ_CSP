@@ -125,7 +125,6 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
         setupPlayer()
         invokeInvaderFire()
         setupAccelerometer()
-        
     }
 
     override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) -> Void
@@ -159,11 +158,11 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
     
     //MARK:- SKPhysicsContactDelegate method
     
-    func didBeginContact(contact: SKPhysicsContact) -> Void
+    public func didBegin(_ contact: SKPhysicsContact) -> Void
     {
-        
         var firstBody: SKPhysicsBody
         var secondBody: SKPhysicsBody
+        
         if contact.bodyA.categoryBitMask < contact.bodyB.categoryBitMask
         {
             firstBody = contact.bodyA
@@ -175,6 +174,19 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             secondBody = contact.bodyA
         }
         
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.PlayerBullet != 0))
+        {
+            print("Invader and Player Bullet Contact")
+        }
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Player != 0) && (secondBody.categoryBitMask & CollisionCategories.InvaderBullet != 0))
+        {
+            print("Player and Invader Bullet Contact")
+        }
+        
+        if((firstBody.categoryBitMask & CollisionCategories.Invader != 0) && (secondBody.categoryBitMask & CollisionCategories.Player != 0))
+        {
+            print("Invader and Player Collision Contact")
+        }
     }
-    
 }
