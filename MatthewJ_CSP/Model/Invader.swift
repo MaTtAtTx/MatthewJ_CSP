@@ -22,8 +22,7 @@ public class Invader: SKSpriteNode
         super.init(texture: texture, color: SKColor.clear, size: texture.size())
         self.name = "invader"
     
-        self.physicsBody =
-            SKPhysicsBody(texture: self.texture!, size: self.size)
+        self.physicsBody = SKPhysicsBody(texture: self.texture!, size: self.size)
         self.physicsBody?.isDynamic = true
         self.physicsBody?.usesPreciseCollisionDetection = false
         self.physicsBody?.categoryBitMask = CollisionCategories.Invader
