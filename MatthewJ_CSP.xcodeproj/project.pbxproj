@@ -23,6 +23,7 @@
 		0D5DBE621FA2247400302061 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */; };
 		0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */; };
 		0DB4FA381FD99CAB00913319 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4FA371FD99CAB00913319 /* ArtCell.swift */; };
+		0DE6302D1FE9688600094442 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6302C1FE9688600094442 /* DeathScene.swift */; };
 		0DE71C671FE176C000D6FCAD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE71C661FE176C000D6FCAD /* Utilities.swift */; };
 		0DE71C6D1FE1776300D6FCAD /* InvaderLaser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE71C681FE1776300D6FCAD /* InvaderLaser.swift */; };
 		0DE71C6E1FE1776300D6FCAD /* Invader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE71C691FE1776300D6FCAD /* Invader.swift */; };
@@ -56,6 +57,7 @@
 		0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		0DB4FA371FD99CAB00913319 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		0DE6302C1FE9688600094442 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		0DE71C661FE176C000D6FCAD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0DE71C681FE1776300D6FCAD /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
 		0DE71C691FE1776300D6FCAD /* Invader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Invader.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 				0DE71C751FE181E400D6FCAD /* GameScene.swift */,
 				0DE71C741FE181E400D6FCAD /* LevelCompleteScene.swift */,
 				0DE71C761FE181E400D6FCAD /* StartScene.swift */,
+				0DE6302C1FE9688600094442 /* DeathScene.swift */,
 			);
 			path = GameController;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */,
 				0DE71C6F1FE1776300D6FCAD /* Player.swift in Sources */,
 				0DE7E51E1FC32B9400B21C4E /* Drawing.swift in Sources */,
+				0DE6302D1FE9688600094442 /* DeathScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
