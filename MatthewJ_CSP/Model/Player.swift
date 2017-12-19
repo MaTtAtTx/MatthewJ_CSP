@@ -29,7 +29,6 @@ public class Player: SKSpriteNode
         }
     }
 
-    
     public init()
     {
         let texture = SKTexture(imageNamed: "x wing1")
