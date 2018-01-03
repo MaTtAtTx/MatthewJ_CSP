@@ -32,10 +32,10 @@ public class StartScene : SKScene
         
         if (touchedNode.name == "start")
         {
-            let gameOverScene = GameScene(size: size)
-            gameOverScene.scaleMode = scaleMode
+            let startGame = GameScene(size: size)
+            startGame.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 1.0)
-            view?.presentScene(gameOverScene, transition: transitionType)
+            view?.presentScene(startGame, transition: transitionType)
         }
     }
 }
