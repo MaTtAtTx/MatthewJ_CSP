@@ -19,6 +19,7 @@ public class DrawingView: UIView
         drawHappyTree()
         drawDesign()
         drawTest()
+        drawTriforce()
     }
 
     private func drawStickFigure() -> UIBezierPath
@@ -163,5 +164,17 @@ public class DrawingView: UIView
         testDraw4.addLine(to: CGPoint(x: 313, y: 100))
         testDraw4.close()
         testDraw4.fill()
+    }
+    
+    private func drawTriforce() -> Void
+    {
+        let firstTriangle = UIBezierPath()
+        
+        UIColor.yellow.setFill()
+        firstTriangle.move(to: CGPoint(x: 160, y: 120))
+        firstTriangle.addLine(to: CGPoint(x: 174, y: 92))
+        firstTriangle.addLine(to: CGPoint(x: 188, y: 120))
+        firstTriangle.close()
+        firstTriangle.fill()
     }
 }
