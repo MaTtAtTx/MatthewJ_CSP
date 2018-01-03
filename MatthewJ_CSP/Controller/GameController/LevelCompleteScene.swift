@@ -11,7 +11,6 @@ import SpriteKit
 
 public class LevelCompleteScene: SKScene
 {
-
     override public func didMove(to view: SKView) -> Void
     {
         self.backgroundColor = SKColor.black
@@ -28,10 +27,10 @@ public class LevelCompleteScene: SKScene
         let touchedNode = self.atPoint(touchLocation!)
         if(touchedNode.name == "nextlevel")
         {
-            let gameOverScene = GameScene(size: size)
-            gameOverScene.scaleMode = scaleMode
+            let nextLevel = GameScene(size: size)
+            nextLevel.scaleMode = scaleMode
             let transitionType = SKTransition.flipHorizontal(withDuration: 0.5)
-            view?.presentScene(gameOverScene,transition: transitionType)
+            view?.presentScene(nextLevel,transition: transitionType)
         }
     }
 }
