@@ -259,8 +259,10 @@ public class GameScene: SKScene, SKPhysicsContactDelegate
             let invaderIndex = invadersThatCanFire.index(of: firstBody.node as! Invader)
             if(invaderIndex != nil)
             {
-                
+                invadersThatCanFire.remove(at: invaderIndex!)
             }
+            theInvader.removeFromParent()
+            secondBody.node?.removeFromParent()
         }
     }
 }
