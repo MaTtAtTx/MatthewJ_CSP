@@ -158,9 +158,9 @@ public class DrawingView: UIView
         let testDraw4 = UIBezierPath()
         
         UIColor.white.setFill()
-        testDraw4.move(to: CGPoint(x: 313, y: 10))
+        testDraw4.move(to: CGPoint(x: 293, y: 10))
+        testDraw4.addLine(to: CGPoint(x: 293, y: 100))
         testDraw4.addLine(to: CGPoint(x: 313, y: 100))
-        testDraw4.addLine(to: CGPoint(x: 333, y: 100))
         testDraw4.close()
         testDraw4.fill()
     }
