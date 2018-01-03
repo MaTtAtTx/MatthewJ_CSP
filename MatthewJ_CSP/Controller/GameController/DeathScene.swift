@@ -13,11 +13,11 @@ class DeathScene: SKScene
 {
     override public func didMove(to view: SKView) -> Void
     {
-        self.backgroundColor = SKColor.blue
+        self.backgroundColor = SKColor.green
         
-        let gameOver = SKLabelNode(text: "👿 You have died!!! 👿")
+        let gameOver = SKLabelNode(text: "👿 You're Dead! 👿")
         gameOver.name = "game over"
-        gameOver.fontSize = 65
+        gameOver.fontSize = 40
         gameOver.fontColor = SKColor.red
         gameOver.position = CGPoint(x: frame.midX, y: frame.midY)
         
