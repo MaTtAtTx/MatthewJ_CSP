@@ -25,6 +25,7 @@
 		0D5DBE621FA2247400302061 /* InternetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */; };
 		0D5DBE641FA2252800302061 /* GlobalImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */; };
 		0DB4FA381FD99CAB00913319 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB4FA371FD99CAB00913319 /* ArtCell.swift */; };
+		0DD4787E1FFFE2D4001A40C7 /* bucket.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4787D1FFFE2D4001A40C7 /* bucket.csv */; };
 		0DE6302D1FE9688600094442 /* DeathScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE6302C1FE9688600094442 /* DeathScene.swift */; };
 		0DE6302E1FE973C100094442 /* laser sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DE71C7C1FE187BA00D6FCAD /* laser sound.mp3 */; };
 		0DE6302F1FE973C400094442 /* powerup sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0DE71C7B1FE187BA00D6FCAD /* powerup sound.mp3 */; };
@@ -66,6 +67,7 @@
 		0D5DBE611FA2247400302061 /* InternetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetDetailViewController.swift; sourceTree = "<group>"; };
 		0D5DBE631FA2252800302061 /* GlobalImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalImpactViewController.swift; sourceTree = "<group>"; };
 		0DB4FA371FD99CAB00913319 /* ArtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		0DD4787D1FFFE2D4001A40C7 /* bucket.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bucket.csv; path = ../../../../../Downloads/bucket.csv; sourceTree = "<group>"; };
 		0DE6302C1FE9688600094442 /* DeathScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathScene.swift; sourceTree = "<group>"; };
 		0DE71C661FE176C000D6FCAD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		0DE71C681FE1776300D6FCAD /* InvaderLaser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvaderLaser.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 		0D5DBE541FA21FD500302061 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0DD4787D1FFFE2D4001A40C7 /* bucket.csv */,
 				0DE71C801FE187CA00D6FCAD /* Sounds */,
 				0DE71C661FE176C000D6FCAD /* Utilities.swift */,
 				0D5DBE481FA21FAE00302061 /* Assets.xcassets */,
@@ -283,6 +286,7 @@
 			files = (
 				0DE6302E1FE973C100094442 /* laser sound.mp3 in Resources */,
 				0DE71C731FE177E500D6FCAD /* StarField.sks in Resources */,
+				0DD4787E1FFFE2D4001A40C7 /* bucket.csv in Resources */,
 				0DE630311FE973C900094442 /* extra sound.mp3 in Resources */,
 				0D5DBE4C1FA21FAE00302061 /* LaunchScreen.storyboard in Resources */,
 				0D5DBE491FA21FAE00302061 /* Assets.xcassets in Resources */,

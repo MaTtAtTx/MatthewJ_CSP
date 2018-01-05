@@ -199,21 +199,19 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUc-Kn-cua">
-                                            <rect key="frame" x="0.0" y="250" width="250" height="50"/>
+                                            <rect key="frame" x="0.0" y="250" width="42" height="50"/>
                                             <constraints>
-                                                <constraint firstAttribute="width" constant="250" id="MjQ-59-sip"/>
                                                 <constraint firstAttribute="height" constant="50" id="pPS-mx-uGf"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6n-1P-o1W">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T6n-1P-o1W">
                                             <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="2LB-dH-7D1"/>
                                                 <constraint firstAttribute="height" constant="250" id="7qq-t2-Fbc"/>
-                                                <constraint firstAttribute="width" constant="240" id="9mf-HT-9re"/>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="Ug5-x3-9MP"/>
                                                 <constraint firstAttribute="width" relation="lessThanOrEqual" constant="250" id="g5R-yB-t5x"/>
                                             </constraints>
