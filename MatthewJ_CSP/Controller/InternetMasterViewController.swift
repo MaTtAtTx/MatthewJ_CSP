@@ -31,11 +31,11 @@ public class InternetMasterViewController: UITableViewController
         //TODO: Replace with your correct links
         addresses = [
             "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
-            "https://www.google.com",
+            "https://apstudent.collegeboard.org/apcourse/ap-computer-science-principles",
+            "https://ctec.canyonsdistrict.org/",
+            "http://www.canyonsdistrict.org/",
+            "https://twitter.com/?lang=en",
+            "https://developer.apple.com/library/content/documentation/Swift/Conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-ID309",
         ]
         
         if let splitView = splitViewController
@@ -78,7 +78,7 @@ public class InternetMasterViewController: UITableViewController
     //MARK: Handle the internal transfer
     override public func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        if segue.identifier! == "show detail"
+        if segue.identifier! == "showDetail"
         {
             if let indexPath = self.tableView.indexPathForSelectedRow
             {
@@ -88,7 +88,12 @@ public class InternetMasterViewController: UITableViewController
                 if indexPath.row == 0
                 {
                     //TODO: Replace with your definitions - great time to use """ operator
-                    pageText = "All the definitions you wrote........"
+                    pageText = """
+                    DNS - Domain Name Servers (DNS) are the Internet's equivalent of a phone book. They maintain a directory of domain names and translate them to Internet Protocol (IP) addresses. \
+                    URL - The URL (Uniform Resource Locator) is a reference (an address) to a resource on the Internet. This can be the actual IP address of the server or it can be the domain name on the World Wide Web. \
+                    IP - The Internet Protocol (IP) is the method or protocol by which data is sent from one computer to another on the Internet. Each computer on the internet has a unique IP. Each section in ip address can be 0-255. Because of this though, IP4 has run out of addresses since there’s only 4 billion possibilities. This is solved by IPV6 for now because it has 3.4x10^38 addresses. IP addresses are given out by DHCP (Dynamic Host Configuration Protocol). \
+                    MAC - In a LAN or other network, the MAC (Media Access Control) address is your computer's unique hardware number. When you're connected to the Internet from your computer, a correspondence table relates your IP address to your computer's physical (MAC) address on the LAN.
+                    """
                 }
                 else
                 {
