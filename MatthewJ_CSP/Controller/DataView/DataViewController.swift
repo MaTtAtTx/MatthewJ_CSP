@@ -10,6 +10,33 @@ import UIKit
 
 class DataViewController: UITableViewController
 {
+    lazy var bucketList : [BucketItem] =
+    {
+        return loadBucketListFromFile()
+    }()
+    
+    private func loadBucketListFromFile() -> [BucketItem]
+    {
+        var items = [BucketItem]()
+        if let filePath = Bundle.main.url(forResource: "bucket", withExtension: "csv")
+        {
+            do
+            {
+                let input = try String(contentsOf: filePath)
+                let bucketLines = input.components(separatedBy: "\n")
+                for line in bucketLines
+                {
+                    let item = line.components(separatedBy: ",")
+                    items.append(BucketItem(contents: item[0],author: item[1]))
+                }
+            }
+            catch
+            {
+                print("File Load Error")
+            }
+        }
+    }
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -21,22 +48,25 @@ class DataViewController: UITableViewController
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    override func didReceiveMemoryWarning()
+    // MARK: TableView code
+
+    override public func numberOfSections(in tableView: UITableView) -> Int
     {
-        super.didReceiveMemoryWarning()
+        return 1
     }
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int
+    override public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        return bucketList.count
     }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    
+    override public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        let currentCell = tableView.dequeueReusableCell(withIdentifier: "dataIdentifier", for: indexPath) as! BucketItemCell
+        
+        currentCell.bucketItem = bucketList[indexPath.row]
+        //currentCell.bucketItemSignature.text = currentCell.bucketItem.itemAuthor
+        
+        return currentCell
     }
 }
