@@ -101,6 +101,11 @@
                                         <constraint firstItem="QgM-Ry-JGC" firstAttribute="leading" secondItem="qGY-P6-Xd7" secondAttribute="trailing" constant="20" id="hED-3O-hZR"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="bucketItemSignature" destination="07f-FH-qnK" id="zY1-Gw-je9"/>
+                                    <outlet property="bucketItemSymbol" destination="qGY-P6-Xd7" id="1ai-1G-iZ3"/>
+                                    <outlet property="bucketItemText" destination="QgM-Ry-JGC" id="7M6-wd-N0K"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
