@@ -35,6 +35,8 @@ class DataViewController: UITableViewController
                 print("File Load Error")
             }
         }
+        
+        return items
     }
     
     override func viewDidLoad()
