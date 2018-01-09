@@ -39,7 +39,7 @@
                                         <rect key="frame" x="20.5" y="88" width="54" height="30"/>
                                         <state key="normal" title="Internet"/>
                                         <connections>
-                                            <segue destination="VwR-Iv-kmm" kind="show" id="xJj-Uu-oWz"/>
+                                            <segue destination="ueD-Tc-aMq" kind="show" id="eGO-sY-kma"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RtU-8X-VvE">
@@ -426,7 +426,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nHY-1v-BWh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2961" y="1058"/>
+            <point key="canvasLocation" x="3300" y="1134"/>
         </scene>
         <!--Intenet Samples-->
         <scene sceneID="FVM-CA-CID">
@@ -663,7 +663,8 @@
         <image name="javaSample" width="1126" height="754"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="kXs-S3-D7R"/>
+        <segue reference="eGO-sY-kma"/>
+        <segue reference="hX6-SQ-Wnk"/>
         <segue reference="SvF-D1-qh8"/>
     </inferredMetricsTieBreakers>
 </document>
